@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add a virtual device",
+        "menu_options": {
+          "cover": "Cover (two switches)",
+          "valve": "Valve (one switch)",
+          "light": "Light, on/off only (one switch)",
+          "button": "Button (from a binary sensor)"
+        }
+      },
+      "cover": {
+        "title": "Virtual cover",
+        "data": {
+          "name": "Name",
+          "switch_open": "Open switch",
+          "switch_close": "Close switch",
+          "switch_stop": "Stop switch (optional)",
+          "travel_time": "Full travel time"
+        }
+      },
+      "valve": {
+        "title": "Virtual valve",
+        "data": {
+          "name": "Name",
+          "switch": "Controlling switch"
+        }
+      },
+      "light": {
+        "title": "Virtual light (on/off)",
+        "data": {
+          "name": "Name",
+          "switch": "Controlling switch"
+        }
+      },
+      "button": {
+        "title": "Virtual button",
+        "data": {
+          "name": "Name",
+          "binary_sensor": "Input binary sensor",
+          "long_press_time": "Long press threshold",
+          "double_click_time": "Double click window"
+        }
+      }
+    }
+  }
+}
